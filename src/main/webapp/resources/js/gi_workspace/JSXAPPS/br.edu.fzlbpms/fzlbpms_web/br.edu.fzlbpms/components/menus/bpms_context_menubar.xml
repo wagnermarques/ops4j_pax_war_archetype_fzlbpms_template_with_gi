@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Block - 100%]]></name>
+  <icon><![CDATA[images/prototypes/block.gif]]></icon>
+  <description><![CDATA[Simple block, relatively positioned with overflow=scroll.]]></description>
+  <onBeforeDeserialize/>
+  <onAfterDeserialize/>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+    <object type="jsx3.gui.Block">
+      <variants jsxoverflow="1"/>
+      <strings jsxname="menu_bpms_context_block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+      <object type="jsx3.gui.WindowBar">
+        <variants jsxbartype="2"/>
+        <strings jsxname="menuBar"/>
+        <include src="br.edu.fzlbpms/components/menus/bpms_lista_de_tarefas.xml" async="false"/>
+      </object>
+      <object type="jsx3.gui.WindowBar">
+        <variants jsxbartype="1"/>
+        <strings jsxname="toolBar" jsxstyleoverride="width:90%"/>
+      </object>
+    </object>
+  </object>
+</serialization>

@@ -1,0 +1,17 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Menu Bar]]></name>
+  <icon><![CDATA[images/prototypes/menubar.gif]]></icon>
+  <description><![CDATA[menuBar object, used to group multiple menus.]]></description>
+  <object type="jsx3.gui.WindowBar">
+    <variants jsxbartype="2"/>
+    <strings jsxname="menuBar"/>
+    <object type="jsx3.gui.Menu">
+      <variants jsxxmlasync="1"/>
+      <strings jsxname="menu" jsxtip="menu" jsxtext="menu" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;New&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Open&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Save&quot;/&gt;  &lt;/data&gt;"/>
+    </object>
+    <object type="jsx3.gui.Menu">
+      <variants jsxxmlasync="1"/>
+      <strings jsxname="menu" jsxtip="menu" jsxtext="menu" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;New&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Open&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Save&quot;/&gt;  &lt;/data&gt;"/>
+    </object>
+  </object>
+</serialization>

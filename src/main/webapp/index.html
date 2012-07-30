@@ -1,0 +1,202 @@
+ <html>
+	<head>
+	
+		<!--
+		define it when to create funcional projects based on this template project
+		TODO: in case of create project wizard, it could be replaced dinamically
+		-->
+		<title>index-title-tag-not-defined-yet</title>
+		<meta name="description" content="index-meta-description-tag-not-defined-yet" />
+		<meta name="author" content="index-meta-author-tag-not-defined-yet" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+
+		<!-- from html5 aptana template -->
+		<!-- meta charset="utf-8" / -->
+		<meta charset="ISO-8859-1" />
+
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+
+		<!-- 
+		CONFIGURING OPENAJAX HUB
+		http://www.openajax.org/member/wiki/OpenAjax_Hub_1.1_Specification_Managed_Hub_Overview -->
+		<!-- 
+    	Load the OpenAjax Hub before loading other Ajax libraries. 
+    	This example uses the "release/all" configuration of the Hub.    	
+		-->
+  		<script src="resources/js/OpenAjax_Hub_2.0.7/release/all/OpenAjaxManagedHub-all.js"></script>
+
+
+		<!-- Application-specific CSS should be stored in your applications package to ensure portability and to allow
+		the build system to combine & minify it. -->		 
+		<!-- here, the path to app runs.js loader configuration was changed compared to dojo-boilerplate-->
+		<!--  AFTER BUILDED    		
+			<link rel="stylesheet" href="resources/js/dist/app/resources/app.css">
+		-->
+		<!--  NO BUILDED YET (USE IT TO BE NOT NECESSARY WAIT TO BUILD TO SEE CHANGES IN THE CODE 
+			  CHANGE TO SCRIPT TAG ABOVE TO SEE FINAL CHANGES AFTER PROCEED WITH THE BUILD -->   		
+		<link rel="stylesheet" href="resources/js/app/resources/app.css">
+		
+				
+
+		<!--  D W R  -->
+		<script type='text/javascript' src='/ops4j_pax_war_archetype_fzlbpms_template_with_gi/dwr/interface/LoginControllerFacade.js'></script>
+		<script type='text/javascript' src='/ops4j_pax_war_archetype_fzlbpms_template_with_gi/dwr/engine.js'></script>
+		<script type='text/javascript' src='/ops4j_pax_war_archetype_fzlbpms_template_with_gi/dwr/util.js'></script>
+
+		
+		<script type='text/javascript' src='resources/js/app/resources/images/org_logo.gif'></script>
+	</head>
+	<body class="claro">
+		
+		
+		
+		<div id="wrapper">
+			<div id="header">
+				<div id="org_logo">
+					<img alt="org_logo" src="resources/js/app/resources/images/org_logo.gif"/>
+				</div>
+				<div id="org_name">
+					<h1>FZLBPMS</h1>
+				</div>
+			</div>
+	
+			
+			
+			<div id="menu">			    
+				<div style="border:black">
+  				</div>
+      		</div>
+      
+      
+      
+    	  	<div id="slider">
+				<span>slider_space</span>    
+      		</div>
+
+     
+     
+     
+      		<div id="page">
+				<div id="page_content">
+					<div class="page_content_header_box">
+						<h2>page title</h2>
+						<p>some txt...	</p>
+					</div>
+				</div>
+				
+				
+				<div class="page_content_body">
+	
+					<div id="client2Container"></div>
+					<div id="client1Container"></div>
+										
+					<div id="gi_app"><!--  style="width:100%;height:400px; border-width: thick;" -->			
+    					
+    					APLICATIVO FZLBPMS_DASHBOARD
+ 						<script type="text/javascript" 
+ 								src="resources/js/JSX/js/JSX30.js" 
+ 							 	jsxapppath="resources/js/gi_workspace/JSXAPPS/br.edu.fzlbpms/user_dashboard">
+ 					 	</script>
+ 					</div>
+ 				
+		  			
+				</div>
+				
+				
+				<div class="page_content_bottom">
+		  			<h3>page-bottom</h3>
+		  			<div style="width:300; height:150; border:black solid 1px">
+ 						<h3>ClientApp1 content</h3>
+						<p>Messages received appear below:</p>
+  						<p id="OpenAjax_hub_messageArea"></p>
+					</div>
+		  			
+				</div>		
+     		</div><!-- page -->
+
+
+
+
+
+	      	<div id="footer">
+				fzlbpms template
+      		</div>
+
+
+
+
+	      	<div id="fixed_bootom_footer_bar">
+	      	    <div style="float:left">Usuario Logado = </div>
+				<div id="fzlbmps_template_logged_user" style="float:left">(no user logged in)</div>
+				<div id="fzlbmps_template_logoff_link" style="float:left; color:white; display: none;"> - logoff -</div>
+				<div id="fzlbmps_template_login_link"  style="float:left; color:white;"> - login -</div>
+				<div style="float:left; color:lime;">|=|</div>				
+				<div id="fzlbmps_template_now" style="float:left">
+					<script type="text/javascript">
+					<!--
+							var nowDate = new Date();
+						   	document.getElementById("fzlbmps_template_now").innerHTML = nowDate;						    
+						
+					//-->
+					</script>
+				</div>	
+      		</div><!-- barraRodapeContainer -->      
+
+
+
+
+	      	<div id="fixed_top_for_messages_bar" style="display:none">
+				<div>define message ...</div>	
+      		</div><!-- barraRodapeContainer -->      
+    	</div><!-- wrapper --->      
+		
+		
+		
+		
+		<!-- dojo.js is an AMD-compliant loader script. It accepts configuration either from a data-dojo-config attribute,
+		as shown here, from a global dojoConfig object (which must be defined *before* dojo.js is loaded), or from
+		a global require object.
+
+		Configuration options for the loader can be viewed at http://livedocs.dojotoolkit.org/loader/amd
+		along with a bunch of additional information about its features.
+
+		Below, were doing the following:
+
+		1. Enabling the AMD loader. (async: 1)
+		2. Fixing the loader to use normal AMD resolution of unregistered module paths (relative to baseDir)
+		instead of the traditional Dojo resolution method (relative to the parent of baseDir).
+		(tlmSiblingOfDojo: 0)
+		3. Enabling debugging. (isDebug: 1)
+
+		The remainder of Dojo configuration, as well as our applications instantiation, occurs within
+		app/run.js. -->
+		
+		<!--  BUILDED    
+		<script data-dojo-config="async: 1, tlmSiblingOfDojo: 0, isDebug: 1" 
+				src="resources/js/dist/dojo/dojo.js" defer></script>
+		-->
+		<!--  NO BUILDED YET (USE IT TO BE NOT NECESSARY WAIT TO BUILD TO SEE CHANGES IN THE CODE 
+		      CHANGE TO SCRIPT TAG ABOVE TO SEE FINAL CHANGES AFTER PROCEED WITH THE BUILD -->  
+		<script data-dojo-config="async: 1, tlmSiblingOfDojo: 0, isDebug: 1"			   
+		src="resources/js/dojo/dojo.js" defer></script>
+		
+		
+		<!-- Load the loader configuration script. Note that this module ID is hard-coded in build.sh in order to provide
+		an optimised build that loads as few as one script for the entire application. If you change the name or
+		location of this module, you will need to update build.sh too. -->
+		<!-- here, the path to app runs.js loader configuration was changed compared to dojo-boilerplate-->
+		<!--  BUILDED    		
+		<script src="resources/js/dist/app/run.js" defer></script>
+		-->
+		<!--  NO BUILDED YET 		 -->  		
+		<script src="resources/js/app/run.js" defer></script>
+
+		
+	</body>
+</html>

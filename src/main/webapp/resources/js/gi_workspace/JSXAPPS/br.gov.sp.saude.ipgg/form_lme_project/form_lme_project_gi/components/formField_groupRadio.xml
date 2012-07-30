@@ -1,0 +1,25 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Block - 100%]]></name>
+  <icon><![CDATA[images/prototypes/block.gif]]></icon>
+  <description><![CDATA[Simple block, relatively positioned with overflow=scroll.]]></description>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1" jsxmove="1" jsxwidth="20"/>
+    <strings jsxname="block" jsxheight="100%" jsxrelativeposition="1"/>
+    <object type="jsx3.gui.Block">
+      <variants jsxrelativeposition="1" jsxoverflow="3"/>
+      <strings jsxname="label" jsxtext=""/>
+    </object>
+    <object type="jsx3.gui.Block">
+      <variants jsxrelativeposition="1" jsxoverflow="3"/>
+      <strings jsxname="label" jsxtext=""/>
+    </object>
+    <object type="jsx3.gui.RadioButton">
+      <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+      <strings jsxname="radio" jsxtext="" jsxgroupname="group1" jsxmargin="0 4 0 0" jsxdisplay=""/>
+    </object>
+    <object type="jsx3.gui.RadioButton">
+      <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+      <strings jsxname="radio" jsxtext="" jsxgroupname="group1" jsxmargin="0 4 0 0" jsxdisplay=""/>
+    </object>
+  </object>
+</serialization>

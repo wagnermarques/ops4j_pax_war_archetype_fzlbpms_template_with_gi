@@ -1,0 +1,35 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Block - 100%]]></name>
+  <icon><![CDATA[images/prototypes/block.gif]]></icon>
+  <description><![CDATA[Simple block, relatively positioned with overflow=scroll.]]></description>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+    <object type="jsx3.gui.LayoutGrid">
+      <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
+      <strings jsxname="layoutCols" jsxcols="100,*,140" jsxwidth="100%" jsxheight="100%"/>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="2"/>
+        <strings jsxname="pane1" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+        <object type="jsx3.gui.Image">
+          <variants jsxoverflow="2" jsxrelativeposition="1"/>
+          <strings jsxname="image" jsxsrc="jsx:/images/icons/ipgg_logo_Estado.jpg"/>
+        </object>
+      </object>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="1"/>
+        <strings jsxname="pane2" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+        <object type="jsx3.gui.Image">
+          <variants jsxoverflow="2" jsxrelativeposition="1" jsxwidth="700"/>
+          <strings jsxname="image" jsxsrc="jsx:/images/icons/ipgg_central_de_relatorios.jpg" jsxpadding="10 10 10 200" jsxbg="" jsxbgcolor=""/>
+        </object>
+      </object>
+      <object type="jsx3.gui.Image">
+        <variants jsxoverflow="2" jsxrelativeposition="1" jsxwidth="50"/>
+        <strings jsxname="image" jsxsrc="jsx:/images/icons/bandeira-sp-535x258.jpg"/>
+      </object>
+    </object>
+  </object>
+</serialization>

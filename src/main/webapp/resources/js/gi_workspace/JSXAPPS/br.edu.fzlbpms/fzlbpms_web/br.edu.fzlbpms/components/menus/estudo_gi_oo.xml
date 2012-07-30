@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Menu]]></name>
+  <icon><![CDATA[images/prototypes/menu.gif]]></icon>
+  <description><![CDATA[Menu object.]]></description>
+  <object type="jsx3.gui.Menu">
+    <variants jsxxmlasync="1"/>
+    <strings jsxname="estuda_gi_oo" jsxtip="menu" jsxtext="estuda_gi_oo" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;testaMetodoEstaticoHerdadoDaInterface&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;testaMetodoInstanciaHerdadoDaInterface&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Save&quot;/&gt;  &lt;/data&gt;"/>
+    <events jsxexecute="menu_testGiOO_EventHandle(this);"/>
+  </object>
+</serialization>

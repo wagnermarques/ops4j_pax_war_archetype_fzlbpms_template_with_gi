@@ -1,0 +1,56 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <onAfterDeserialize/>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%"/>
+    <object type="jsx3.gui.LayoutGrid">
+      <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
+      <strings jsxname="layoutRows" jsxrows="140,*" jsxwidth="100%" jsxheight="100%"/>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="2"/>
+        <strings jsxname="pane1" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1"/>
+          <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+          <object type="jsx3.gui.LayoutGrid">
+            <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
+            <strings jsxname="layoutCols" jsxcols="100,*,100" jsxwidth="100%" jsxheight="100%"/>
+            <object type="jsx3.gui.Block">
+              <variants jsxoverflow="2"/>
+              <strings jsxname="pane1" jsxwidth="100%" jsxheight="100%"/>
+              <dynamics jsxborder="@Outset"/>
+              <object type="jsx3.gui.Image">
+                <variants jsxoverflow="2" jsxrelativeposition="1" jsxwidth="100"/>
+                <strings jsxname="image" jsxsrc="imagens/obpc_logo.jpg"/>
+              </object>
+            </object>
+            <object type="jsx3.gui.Block">
+              <variants jsxoverflow="1"/>
+              <strings jsxname="pane2" jsxwidth="100%" jsxheight="100%"/>
+              <dynamics jsxborder="@Outset"/>
+              <object type="jsx3.gui.Image">
+                <variants jsxoverflow="2" jsxrelativeposition="1" jsxwidth="600"/>
+                <strings jsxname="image" jsxsrc="imagens/titulo_obpc_pqCruzeiroDoSul.jpg" jsxpadding="50 10 10 100" jsxbg="" jsxbgcolor=""/>
+              </object>
+            </object>
+            <object type="jsx3.gui.Image">
+              <variants jsxoverflow="2" jsxrelativeposition="1" jsxwidth="90"/>
+              <strings jsxname="image" jsxsrc="imagens/logo_conselho_nacional_BANDEIRA.jpg" jsxpadding="15 0 0 0"/>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="1"/>
+        <strings jsxname="pane2" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+        <include src="components/menus.xml" async="false"/>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1"/>
+          <strings jsxname="mainBlock" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+        </object>
+      </object>
+    </object>
+  </object>
+</serialization>

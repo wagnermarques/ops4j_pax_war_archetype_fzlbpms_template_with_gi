@@ -1,0 +1,58 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Block - 100%]]></name>
+  <icon><![CDATA[images/prototypes/block.gif]]></icon>
+  <description><![CDATA[Simple block, relatively positioned with overflow=scroll.]]></description>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+    <object type="jsx3.gui.Button">
+      <variants jsxindex="0" jsxheight="18"/>
+      <strings jsxname="button" jsxtext="PESQUISAR" jsxmargin="0 4 0 0"/>
+      <events jsxexecute="alert('hello');"/>
+    </object>
+    <object type="jsx3.gui.TextBox">
+      <variants jsxheight="18"/>
+      <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxwidth="80%"/>
+    </object>
+    <object type="jsx3.gui.Matrix">
+      <variants jsxpagingmodel="1" jsxselectionmodel="0" jsxjsxxmlasync="1"/>
+      <strings xmlns="urn:tibco.com/v3.0" jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxsortpath="index" jsxsorttype="text" jsxsortdirection="descending" jsxxmlurl="xml/_jsx_tbl_membros.xml"/>
+      <events jsxbeforeedit="jsx3.log('EVENT: (jsxbeforeedit). Record: ' + strRECORDID);" jsxafteredit="jsx3.log('EVENT: (jsxafteredit). Record: ' + strRECORDID + '. New Value: ' + strNEWVALUE);"/>
+      <xslparameters jsx_rowbg1="#ffffff" jsx_rowbg2="#efefff"/>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants/>
+        <strings xmlns="urn:tibco.com/v3.0" jsxname="mc2" jsxwidth="30" jsxresize="0" jsxtext="&amp;#160;" jsxpadding="2" jsxcellpadding="2" jsxpath="index"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+      </object>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants/>
+        <strings xmlns="urn:tibco.com/v3.0" jsxname="mc1" jsxwidth="*" jsxtext="Name" jsxpadding="2" jsxcellpadding="3" jsxpath="jsxtext"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+        <object type="jsx3.gui.TextBox">
+          <variants jsxrelativeposition="0" jsxleft="30" jsxtop="20" jsxwidth="921" jsxheight="20" jsxzindex="10"/>
+          <strings xmlns="urn:tibco.com/v3.0" jsxname="tb1" jsxdisplay="none" jsxvalue="United Kingdom"/>
+          <events jsxkeydown="1;"/>
+        </object>
+      </object>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants/>
+        <strings jsxname="buttonColumn" jsxwidth="100" jsxtext="Button" jsxpadding="3" jsxcellpadding="1" jsxvaluetemplate="@empty"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+        <object type="jsx3.gui.Button">
+          <variants jsxenabled="1"/>
+          <strings jsxname="buttonMask" jsxtext="Execute"/>
+          <events jsxexecute="jsx3.log('Clicked on button mask in row ' + this.emGetSession().recordId + '.');"/>
+        </object>
+      </object>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants/>
+        <strings jsxname="checkboxColumn" jsxwidth="100" jsxtext="Checkbox" jsxpath="checked" jsxcelltextalign="center" jsxpadding="3" jsxcellpadding="1" jsxvaluetemplate="@empty"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+        <object type="jsx3.gui.CheckBox">
+          <variants jsxchecked="0" jsxenabled="1" jsxdefaultchecked="0"/>
+          <strings jsxname="checkboxMask" jsxtext=""/>
+        </object>
+      </object>
+    </object>
+  </object>
+</serialization>

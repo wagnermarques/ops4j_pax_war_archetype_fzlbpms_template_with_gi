@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <record jsxid="version" type="string">1.0</record>
+  <record jsxid="jsxversion" type="string">3.2</record>
+  <record jsxid="caption" type="string">br.edu.fzlbpm/user_dashboard</record>
+  <record jsxid="mode" type="boolean">true</record>
+  <record jsxid="namespace" type="string">br.edu.fzlbpm.userdashboard</record>
+  <record jsxid="cancelerror" type="boolean">true</record>
+  <record jsxid="cancelrightclick" type="boolean">true</record>
+  <record jsxid="left" type="number">0</record>
+  <record jsxid="top" type="number">0</record>
+  <record jsxid="width" type="string">100%</record>
+  <record jsxid="height" type="string">100%</record>
+  <record jsxid="position" type="number">0</record>
+  <record jsxid="overflow" type="string">3</record>
+  <record jsxid="eventsvers" type="number">3.1</record>
+  <record jsxid="default_locale" type="string">pt_BR</record>
+  <record jsxid="onload" type="string">br.edu.fzlbpms.gi.readyRunner.ready();</record>
+  <record jsxid="objectseturl" type="string">components/appCanvas.xml</record>
+  <record jsxid="includes" type="array">
+    <record jsxid="0" type="map">
+      <record jsxid="id" type="string">appCanvas_component</record>
+      <record jsxid="type" type="string">component</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">components/appCanvas.xml</record>
+    </record>
+    <record jsxid="1" type="map">
+      <record jsxid="id" type="string">menu_tarefas_data_xml</record>
+      <record jsxid="type" type="string">xml</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">xml/menu_tarefas_data.xml</record>
+    </record>
+    <record jsxid="2" type="map">
+      <record jsxid="id" type="string">menu_processos_data_xml</record>
+      <record jsxid="type" type="string">xml</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">xml/menu_processos_data.xml</record>
+    </record>
+    <record jsxid="3" type="map">
+      <record jsxid="id" type="string">menu_receituario_data_xml</record>
+      <record jsxid="type" type="string">xml</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">xml/menu_receituario_data.xml</record>
+    </record>
+    <record jsxid="4" type="map">
+      <record jsxid="id" type="string">login_dialog_xml</record>
+      <record jsxid="type" type="string">component</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">../../shared_to_all_projects/components/login_dialog.xml</record>
+    </record>
+    <record jsxid="5" type="map">
+      <record jsxid="id" type="string">menu_ferramentas_data_xml</record>
+      <record jsxid="type" type="string">xml</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">xml/menu_ferramentas_data.xml</record>
+    </record>
+    <record jsxid="6" type="map">
+      <record jsxid="id" type="string">fzlbpms_menu_handle_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/fzlbpms_menu_handle.js</record>
+    </record>
+    <record jsxid="7" type="map">
+      <record jsxid="id" type="string">fzlbpms_i18n_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">js/fzlbpms_i18n.js</record>
+    </record>
+    <record jsxid="8" type="map">
+      <record jsxid="id" type="string">fzlbpms_thisAppReady_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/fzlbpms_thisAppReady.js</record>
+    </record>
+    <record jsxid="9" type="map">
+      <record jsxid="id" type="string">fzlbpms_Menu_Ferramentas_ClickEventListener_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/fzlbpms_Menu_Ferramentas_ClickEventListener.js</record>
+    </record>
+    <record jsxid="10" type="map">
+      <record jsxid="id" type="string">fzlbpms_Menu_Processos_ClickEventListener_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/fzlbpms_Menu_Processos_ClickEventListener.js</record>
+    </record>
+    <record jsxid="11" type="map">
+      <record jsxid="id" type="string">fzlbpms_Menu_Tarefas_ClickEventListener_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/fzlbpms_Menu_Tarefas_ClickEventListener.js</record>
+    </record>
+  </record>
+  <record jsxid="bodyhotkeys" type="boolean">false</record>
+  <record jsxid="onunload" type="string"/>
+</data>

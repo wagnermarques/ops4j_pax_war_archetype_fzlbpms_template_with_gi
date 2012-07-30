@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Menu Bar]]></name>
+  <icon><![CDATA[images/prototypes/menubar.gif]]></icon>
+  <description><![CDATA[menuBar object, used to group multiple menus.]]></description>
+  <object type="jsx3.gui.WindowBar">
+    <variants jsxbartype="2"/>
+    <strings jsxname="menuBar"/>
+    <include src="br.edu.fzlbpms/components/menus/estudo_gi_oo.xml" async="false"/>
+  </object>
+</serialization>

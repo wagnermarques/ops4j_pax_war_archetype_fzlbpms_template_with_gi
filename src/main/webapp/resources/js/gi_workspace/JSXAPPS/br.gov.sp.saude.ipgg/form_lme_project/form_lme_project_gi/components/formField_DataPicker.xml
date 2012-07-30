@@ -1,0 +1,21 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Block - 100%]]></name>
+  <icon><![CDATA[images/prototypes/block.gif]]></icon>
+  <description><![CDATA[Simple block, relatively positioned with overflow=scroll.]]></description>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxrelativeposition="1"/>
+    <object type="jsx3.gui.Block">
+      <variants jsxrelativeposition="1" jsxoverflow="3"/>
+      <strings jsxname="label" jsxtext=""/>
+    </object>
+    <object type="jsx3.gui.DatePicker">
+      <variants jsxwidth="100" jsxrelativeposition="1" jsxheight="18" jsxyear="2012" jsxmonth="4" jsxdate="16"/>
+      <strings jsxname="datePicker" jsxmargin="0 4 0 0" jsxformat="dd/MM/yy"/>
+    </object>
+    <object type="jsx3.gui.Block">
+      <variants jsxrelativeposition="1" jsxoverflow="3"/>
+      <strings jsxname="label" jsxtext=""/>
+    </object>
+  </object>
+</serialization>

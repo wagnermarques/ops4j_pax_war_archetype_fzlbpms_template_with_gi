@@ -1,0 +1,801 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name/>
+  <icon/>
+  <description/>
+  <onBeforeDeserialize/>
+  <onAfterDeserialize/>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1" jsxmove="0" jsxrelativeposition="1" jsxleft="0" jsxtop="2"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+    <object type="jsx3.gui.Splitter">
+      <variants jsxleft="0" jsxtop="0"/>
+      <strings jsxname="splitterV" jsxsubcontainer1pct="5.256241787122208%"/>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="1"/>
+        <strings jsxname="paneLeft" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Inset"/>
+      </object>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+        <strings jsxname="paneRight" jsxwidth="100%" jsxheight="100%" jsxbg="" jsxdisplay="" jsxbgcolor=""/>
+        <dynamics jsxborder="@Inset"/>
+        <object type="jsx3.gui.Image">
+          <variants jsxoverflow="2" jsxrelativeposition="1"/>
+          <strings jsxname="image" jsxsrc="fzlbpms_img/LME1000x1375.jpg" jsxbgcolor="" jsxtext="fzlbpms_img/LME.jpg" jsxpadding=""/>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="102" jsxtop="299" jsxmove="0"/>
+          <strings jsxname="_1_NumeroDoCNES" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="250"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#E9E5FE"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="364" jsxtop="300" jsxmove="0"/>
+          <strings jsxname="_2_NomeDoEstabelecimentoDeSaudeSolicitante" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="520"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#E9E5FE"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="105" jsxtop="343" jsxmove="0"/>
+          <strings jsxname="_3_NomeCompletoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="650"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="103" jsxtop="385" jsxmove="0"/>
+          <strings jsxname="_4_NomeDaMaeDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="650"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="788" jsxtop="346" jsxmove="0"/>
+          <strings jsxname="_5_PesoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="90"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="788" jsxtop="388" jsxmove="0"/>
+          <strings jsxname="_6_AlturaDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="90"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="128" jsxtop="456" jsxmove="0"/>
+          <strings jsxname="_7_1_Medicamento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="530"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="673" jsxtop="456" jsxmove="0"/>
+          <strings jsxname="_8_1_QtdePrimeiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="80"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="761" jsxtop="456" jsxmove="0"/>
+          <strings jsxname="_8_1_QtdeSegundoMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="840" jsxtop="456" jsxmove="0"/>
+          <strings jsxname="_8_1_QtdeTerceiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="127" jsxtop="485" jsxmove="0"/>
+          <strings jsxname="_7_2_Medicamento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="530"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="677" jsxtop="483" jsxmove="0"/>
+          <strings jsxname="_8_2_QtdePrimeiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="763" jsxtop="484" jsxmove="0"/>
+          <strings jsxname="_8_2_QtdeSegundoMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="842" jsxtop="483" jsxmove="0"/>
+          <strings jsxname="_8_2_QtdeTerceiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="127" jsxtop="511" jsxmove="0"/>
+          <strings jsxname="_7_3_Medicamento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="530"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="678" jsxtop="510" jsxmove="0"/>
+          <strings jsxname="_8_3_QtdePrimeiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="763" jsxtop="511" jsxmove="0"/>
+          <strings jsxname="_8_3_QtdeSegundoMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="842" jsxtop="510" jsxmove="0"/>
+          <strings jsxname="_8_3_QtdeTerceiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="127" jsxtop="538" jsxmove="0"/>
+          <strings jsxname="_7_4_Medicamento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="530"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="677" jsxtop="537" jsxmove="0"/>
+          <strings jsxname="_8_4_QtdePrimeiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="763" jsxtop="538" jsxmove="0"/>
+          <strings jsxname="_8_4_QtdeSegundoMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="843" jsxtop="538" jsxmove="0"/>
+          <strings jsxname="_8_4_QtdeTerceiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="128" jsxtop="566" jsxmove="0"/>
+          <strings jsxname="_7_5_Medicamento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="530"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="677" jsxtop="566" jsxmove="0"/>
+          <strings jsxname="_8_5_QtdePrimeiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="763" jsxtop="567" jsxmove="0"/>
+          <strings jsxname="_8_5_QtdeSegundoMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="70"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="842" jsxtop="567" jsxmove="0"/>
+          <strings jsxname="_8_5_QtdeTerceiroMes" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="60"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="101" jsxtop="610" jsxmove="0"/>
+          <strings jsxname="_9_CID10" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="80"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="204" jsxtop="610" jsxmove="0"/>
+          <strings jsxname="_10_Diagnostico" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="700"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="103" jsxtop="655" jsxmove="0"/>
+          <strings jsxname="_11_Anammese" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxwidth="700" jsxheight="72" jsxtype="1"/>
+            <strings jsxname="textarea" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxmove="0" jsxwidth="20" jsxrelativeposition="0" jsxleft="108" jsxtop="769"/>
+          <strings jsxname="_12_tratamento" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group1" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group1" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="202" jsxtop="754" jsxmove="0"/>
+          <strings jsxname="_12_relato" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxwidth="700" jsxheight="65" jsxtype="1"/>
+            <strings jsxname="textarea" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxmove="0" jsxrelativeposition="0" jsxleft="109" jsxtop="896"/>
+          <strings jsxwidth="100%" jsxname="_13_AtestadoDeCapacidade" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxleft="0" jsxtop="0" jsxwidth="55"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_13" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_13" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="526" jsxtop="897" jsxmove="0"/>
+          <strings jsxname="_13_NomeDoResponsavel" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="380"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="98" jsxtop="965" jsxmove="0"/>
+          <strings jsxname="_14_NomeDoMedicoSolicitante" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="380"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="519" jsxtop="965" jsxmove="0"/>
+          <strings jsxname="_15_DtaDaSolicitacao" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.DatePicker">
+            <variants jsxwidth="100" jsxrelativeposition="1" jsxheight="18" jsxyear="2012" jsxmonth="4" jsxdate="4"/>
+            <strings jsxname="datePicker" jsxmargin="0 4 0 0" jsxformat="dd/MM/yy"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxmove="0" jsxrelativeposition="0" jsxleft="106" jsxtop="1013"/>
+          <strings jsxwidth="100%" jsxname="_16_TpoDocMedicoSolicitante" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0" jsxwidth="65"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_16" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_16" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="246" jsxtop="1011" jsxmove="0"/>
+          <strings jsxname="_16_NumeroDoDocumento" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="400"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="396" jsxtop="1056" jsxmove="0"/>
+          <strings jsxname="_18_CamposPreenchidosPor" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxwidth="70"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_18" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxwidth="116"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_18" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxwidth="202"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group1" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_18" jsxmargin="0 4 0 0"/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="107" jsxtop="1078" jsxmove="0"/>
+          <strings jsxname="_18_CamposPreenchidosPor2" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxwidth="130"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_18" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="350"/>
+            <strings jsxname="textbox" jsxmargin="0 50 0 0" jsxbgcolor="#DFE1FD" jsxvalue="" jsxleft=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="170"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxbgcolor="#DFE1FD" jsxvalue=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="107" jsxtop="1130" jsxmove="0" jsxwidth="120"/>
+          <strings jsxname="_19_RacaCorEtnia" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxwidth="78"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxwidth="78"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="0" jsxrelativeposition="1" jsxwidth="78"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_19" jsxmargin="0 4 0 0"/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="344" jsxtop="1148" jsxmove="0"/>
+          <strings jsxname="_19_etniaIndigena" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="270"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="638" jsxtop="1131" jsxmove="0"/>
+          <strings jsxname="_20_Tel1ContatoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="270"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="639" jsxtop="1159" jsxmove="0"/>
+          <strings jsxname="_20_Tel2ContatoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="270"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="248" jsxtop="1211" jsxmove="0"/>
+          <strings jsxname="_21_NumeroDoDocumentoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="370"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxmove="0" jsxrelativeposition="0" jsxleft="105" jsxtop="1211"/>
+          <strings jsxwidth="100%" jsxname="_21_TpoDocDoPaciente" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="label" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0" jsxwidth="65"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_16" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+          <object type="jsx3.gui.RadioButton">
+            <variants jsxheight="18" jsxdefaultselected="1" jsxselected="1" jsxrelativeposition="1" jsxleft="0" jsxtop="0"/>
+            <strings jsxname="radio" jsxtext="" jsxgroupname="group_16" jsxmargin="0 4 0 0" jsxdisplay=""/>
+          </object>
+        </object>
+        <object type="jsx3.gui.Block">
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="105" jsxtop="1247" jsxmove="0"/>
+          <strings jsxname="_22_CorreioEletronicoDoPaciente" jsxwidth="100%" jsxheight="100%" jsxdisplay=""/>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="fieldLabel" jsxtext=""/>
+          </object>
+          <object type="jsx3.gui.TextBox">
+            <variants jsxheight="18" jsxwidth="510"/>
+            <strings jsxname="textbox" jsxmargin="0 4 0 0" jsxvalue="" jsxbgcolor="#DFE1FD"/>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxrelativeposition="1" jsxoverflow="3"/>
+            <strings jsxname="validationMsgLabel" jsxtext=""/>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</serialization>

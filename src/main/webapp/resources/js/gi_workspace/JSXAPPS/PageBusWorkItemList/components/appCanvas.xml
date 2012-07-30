@@ -1,0 +1,28 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.7">
+  <onAfterDeserialize/>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%"/>
+    <object type="jsx3.gui.Matrix">
+      <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxjsxxmlasync="1"/>
+      <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxxmlurl="xml/DummyInbox.xml"/>
+      <events jsxbeforeedit="jsx3.log('EVENT: (jsxbeforeedit). Record: ' + strRECORDID);" jsxafteredit="jsx3.log('EVENT: (jsxafteredit). Record: ' + strRECORDID + '. New Value: ' + strNEWVALUE);" jsxselect="onChangeSel(this, strRECORDID, objEVENT);"/>
+      <xslparameters jsx_rowbg1="#ffffff" jsx_rowbg2="#efefff"/>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants jsxwidth="65"/>
+        <strings jsxname="caseid" jsxtext="Case" jsxpadding="2" jsxcellpadding="3" jsxpath="jsxid"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+      </object>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants jsxwidth="56"/>
+        <strings jsxname="workitem" jsxtext="Task" jsxpadding="2" jsxcellpadding="3" jsxpath="jsxtext"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+      </object>
+      <object type="jsx3.gui.Matrix.Column">
+        <variants/>
+        <strings jsxname="summary" jsxwidth="100" jsxtext="Summary" jsxpadding="2" jsxcellpadding="3" jsxpath="summary"/>
+        <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+      </object>
+    </object>
+  </object>
+</serialization>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data jsxid="jsxroot">
+  <record jsxid="prefs" type="map">
+    <record jsxid="dom" type="map">
+      <record jsxid="showFocus" type="boolean">false</record>
+      <record jsxid="snapTo" type="boolean">true</record>
+    </record>
+    <record jsxid="builder" type="map">
+      <record jsxid="cachewarn" type="boolean">false</record>
+      <record jsxid="dereferencewarn" type="boolean">false</record>
+      <record jsxid="domfocus" type="boolean">true</record>
+      <record jsxid="snapto" type="string">10</record>
+      <record jsxid="domdeletewarn" type="boolean">false</record>
+    </record>
+  </record>
+  <record jsxid="window" type="map">
+    <record jsxid="splitters" type="map">
+      <record jsxid="jsx_ide_splitter1" type="string">72.93064876957494%</record>
+      <record jsxid="jsx_ide_splitter2" type="string">0%</record>
+      <record jsxid="jsx_ide_splitter3" type="string">100%</record>
+      <record jsxid="jsx_ide_splitter4" type="string">75%</record>
+      <record jsxid="jsx_ide_splitter5" type="string">0%</record>
+    </record>
+  </record>
+  <record jsxid="lastProject" type="string">JSXAPPS/br.edu.fzlbpms/user_dashboard/</record>
+  <record jsxid="recentProjects" type="array">
+    <record jsxid="0" type="string">JSXAPPS/br.edu.fzlbpms/user_dashboard</record>
+    <record jsxid="1" type="string">JSXAPPS/br.com.obpccruzeiro/minhaigreja</record>
+    <record jsxid="2" type="string">JSXAPPS/samples/chart</record>
+    <record jsxid="3" type="string">JSXAPPS/PageBusCaseInfo</record>
+    <record jsxid="4" type="string">JSXAPPS/br.gov.sp.saude.ipgg/form_lme_project/form_lme_project_gi</record>
+    <record jsxid="5" type="string">JSXAPPS/br.gov.sp.saude.ipgg/ipgg_georef_plan_ui</record>
+    <record jsxid="6" type="string">JSXAPPS/samples_fzlbpms/imgage_bakground_form</record>
+  </record>
+  <record jsxid="palettes" type="map">
+    <record jsxid="jsx3.ide.editor.component.dom.palette" type="map">
+      <record jsxid="float" type="boolean">true</record>
+      <record jsxid="dialog" type="map">
+        <record jsxid="left" type="number">789</record>
+        <record jsxid="top" type="number">162</record>
+        <record jsxid="width" type="number">292</record>
+        <record jsxid="height" type="number">615</record>
+      </record>
+      <record jsxid="closed" type="boolean">true</record>
+    </record>
+    <record jsxid="jsx3.ide.editor.component.attr.palette" type="map">
+      <record jsxid="closed" type="boolean">false</record>
+    </record>
+    <record jsxid="jsx3.ide.palette.properties.props.palette" type="map">
+      <record jsxid="closed" type="boolean">true</record>
+      <record jsxid="float" type="boolean">true</record>
+      <record jsxid="dialog" type="map">
+        <record jsxid="left" type="number">1019</record>
+        <record jsxid="top" type="number">50</record>
+        <record jsxid="width" type="number">287</record>
+        <record jsxid="height" type="number">685</record>
+      </record>
+    </record>
+    <record jsxid="jsx3.ide.palette.events.events.palette" type="map">
+      <record jsxid="closed" type="boolean">true</record>
+      <record jsxid="float" type="boolean">true</record>
+      <record jsxid="dialog" type="map">
+        <record jsxid="left" type="number">102</record>
+        <record jsxid="top" type="number">139</record>
+        <record jsxid="width" type="number">591</record>
+        <record jsxid="height" type="number">566</record>
+      </record>
+    </record>
+    <record jsxid="jsx3.ide.palette.xslparams.xsl.palette" type="map">
+      <record jsxid="closed" type="boolean">false</record>
+    </record>
+    <record jsxid="jsx3.ide.palette.prototypes.complibs.palette" type="map">
+      <record jsxid="closed" type="boolean">true</record>
+    </record>
+    <record jsxid="jsx3.ide.palette.cache.cache.palette" type="map">
+      <record jsxid="float" type="boolean">true</record>
+      <record jsxid="closed" type="boolean">false</record>
+      <record jsxid="dialog" type="map">
+        <record jsxid="left" type="number">637</record>
+        <record jsxid="top" type="number">290</record>
+        <record jsxid="width" type="number">300</record>
+        <record jsxid="height" type="number">300</record>
+      </record>
+    </record>
+    <record jsxid="jsx3.ide.palette.resources.proj.palette" type="map">
+      <record jsxid="float" type="boolean">true</record>
+      <record jsxid="dialog" type="map">
+        <record jsxid="left" type="number">1042</record>
+        <record jsxid="top" type="number">36</record>
+        <record jsxid="width" type="number">301</record>
+        <record jsxid="height" type="number">575</record>
+      </record>
+      <record jsxid="closed" type="boolean">false</record>
+    </record>
+    <record jsxid="jsx3.ide.jabber.xmpp.palette" type="map"/>
+  </record>
+  <record jsxid="projects" type="map">
+    <record jsxid="JSXAPPS/samples_fzlbpms/imgage_bakground_form" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">components/appCanvas.xml</record>
+        <record jsxid="1" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array">
+        <record jsxid="0" type="string">js/logic.js</record>
+        <record jsxid="1" type="string">components/appCanvas.xml</record>
+      </record>
+    </record>
+    <record jsxid="JSXAPPS/br.gov.sp.saude.ipgg/ipgg_georef_plan_ui" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">components/appCanvas.xml</record>
+        <record jsxid="1" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array">
+        <record jsxid="0" type="string">js/logic.js</record>
+        <record jsxid="1" type="string">components/appCanvas.xml</record>
+      </record>
+    </record>
+    <record jsxid="JSXAPPS/br.gov.sp.saude.ipgg/form_lme_project/form_lme_project_gi" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">components/appCanvas.xml</record>
+        <record jsxid="1" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array"/>
+    </record>
+    <record jsxid="JSXAPPS/br.edu.fzlbpms/user_dashboard" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">js/fzlbpms_Menu_Ferramentas_ClickEventListener.js</record>
+        <record jsxid="1" type="string">js/fzlbpms_thisAppReady.js</record>
+        <record jsxid="2" type="string">js/fzlbpms_menu_handle.js</record>
+        <record jsxid="3" type="string">js/fzlbpms_i18n.js</record>
+        <record jsxid="4" type="string">js/logic.js</record>
+        <record jsxid="5" type="string">xml/menu_ferramentas_data.xml</record>
+        <record jsxid="6" type="string">components/appCanvas.xml</record>
+        <record jsxid="7" type="string">../../shared_to_all_projects/components/login_dialog.xml</record>
+        <record jsxid="8" type="string">xml/menu_tarefas_data.xml</record>
+        <record jsxid="9" type="string">xml/menu_processos_data.xml</record>
+      </record>
+      <record jsxid="openFiles" type="array">
+        <record jsxid="0" type="string">js/fzlbpms_menu_handle.js</record>
+        <record jsxid="1" type="string">js/fzlbpms_thisAppReady.js</record>
+        <record jsxid="2" type="string">js/fzlbpms_Menu_Ferramentas_ClickEventListener.js</record>
+      </record>
+    </record>
+    <record jsxid="JSXAPPS/PageBusCaseInfo" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">components/appCanvas.xml</record>
+        <record jsxid="1" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array"/>
+    </record>
+    <record jsxid="JSXAPPS/samples/chart" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">components/appCanvas.xml</record>
+        <record jsxid="1" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array">
+        <record jsxid="0" type="string">js/logic.js</record>
+        <record jsxid="1" type="string">components/appCanvas.xml</record>
+      </record>
+    </record>
+    <record jsxid="JSXAPPS/br.com.obpccruzeiro/minhaigreja" type="map">
+      <record jsxid="recentFiles" type="array">
+        <record jsxid="0" type="string">js/controller_menu_principal.js</record>
+        <record jsxid="1" type="string">components/appCanvas.xml</record>
+        <record jsxid="2" type="string">js/logic.js</record>
+      </record>
+      <record jsxid="openFiles" type="array">
+        <record jsxid="0" type="string">js/logic.js</record>
+        <record jsxid="1" type="string">components/appCanvas.xml</record>
+        <record jsxid="2" type="string">js/controller_menu_principal.js</record>
+      </record>
+    </record>
+  </record>
+  <record jsxid="apihelp" type="map">
+    <record jsxid="aswindow" type="boolean">false</record>
+    <record jsxid="position" type="map">
+      <record jsxid="left" type="number">216</record>
+      <record jsxid="top" type="number">0</record>
+      <record jsxid="width" type="number">880</record>
+      <record jsxid="height" type="number">600</record>
+    </record>
+    <record jsxid="class" type="string">jsx3.lang.Class</record>
+    <record jsxid="member" type="string">_summary</record>
+  </record>
+  <record jsxid="find-replace" type="map">
+    <record jsxid="left" type="number">644</record>
+    <record jsxid="top" type="number">223</record>
+    <record jsxid="cs" type="number">0</record>
+    <record jsxid="regexp" type="number">0</record>
+  </record>
+</data>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <onAfterDeserialize/>
+  <object type="jsx3.gui.Block">
+    <variants jsxoverflow="1"/>
+    <strings jsxname="block" jsxwidth="100%" jsxheight="100%"/>
+    <object type="jsx3.gui.LayoutGrid">
+      <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
+      <strings jsxname="layoutRows" jsxrows="100,*" jsxwidth="100%" jsxheight="100%"/>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="2"/>
+        <strings jsxname="panel_top" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+        <object type="jsx3.gui.LayoutGrid">
+          <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
+          <strings jsxname="layoutRows" jsxrows="40,*" jsxwidth="100%" jsxheight="100%"/>
+          <object type="jsx3.gui.Block">
+            <variants jsxoverflow="2"/>
+            <strings jsxname="panel_top1" jsxwidth="100%" jsxheight="100%"/>
+            <dynamics jsxborder="@Outset"/>
+            <object type="jsx3.gui.WindowBar">
+              <variants jsxbartype="2"/>
+              <strings jsxname="menuBar"/>
+              <include src="br.edu.fzlbpms/components/menus/contextos_de_trabalho.xml" async="false"/>
+            </object>
+            <object type="jsx3.gui.WindowBar">
+              <variants jsxbartype="1"/>
+              <strings jsxname="toolBar"/>
+            </object>
+          </object>
+          <object type="jsx3.gui.Block">
+            <variants jsxoverflow="1"/>
+            <strings jsxname="panel_top2" jsxwidth="100%" jsxheight="100%"/>
+            <dynamics jsxborder="@Outset"/>
+          </object>
+        </object>
+      </object>
+      <object type="jsx3.gui.Block">
+        <variants jsxoverflow="1"/>
+        <strings jsxname="pane2" jsxwidth="100%" jsxheight="100%"/>
+        <dynamics jsxborder="@Outset"/>
+      </object>
+    </object>
+  </object>
+</serialization>

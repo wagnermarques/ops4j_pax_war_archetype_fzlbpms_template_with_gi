@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Menu Bar]]></name>
+  <icon><![CDATA[images/prototypes/menubar.gif]]></icon>
+  <description><![CDATA[menuBar object, used to group multiple menus.]]></description>
+  <object type="jsx3.gui.WindowBar">
+    <variants jsxbartype="2"/>
+    <strings jsxname="menuBar"/>
+    <object type="jsx3.gui.Menu">
+      <variants jsxxmlasync="1"/>
+      <strings jsxname="Contextos_de_trabalho" jsxtip="menu" jsxtext="Contextos_de_trabalho" jsxxml="" jsxxmlurl="br.edu.fzlbpms/xml/for_widgets_data/menus/contextos_de_trabalho.xml"/>
+      <events jsxexecute="br.edu.fzlbpms.controllers.ControladorDeMenus.staticExecute(this);" jsxmenu=""/>
+    </object>
+  </object>
+</serialization>

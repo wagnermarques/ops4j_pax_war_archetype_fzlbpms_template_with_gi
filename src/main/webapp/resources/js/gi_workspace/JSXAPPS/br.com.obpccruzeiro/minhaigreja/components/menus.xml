@@ -1,0 +1,14 @@
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Menu Bar]]></name>
+  <icon><![CDATA[images/prototypes/menubar.gif]]></icon>
+  <description><![CDATA[menuBar object, used to group multiple menus.]]></description>
+  <object type="jsx3.gui.WindowBar">
+    <variants jsxbartype="2"/>
+    <strings jsxname="menuBar"/>
+    <object type="jsx3.gui.Menu">
+      <variants jsxxmlasync="1"/>
+      <strings jsxname="mn1" jsxtip="menu" jsxtext="CADASTROS" jsxxmlurl="xml/_jsx_menu_CADASTRO_DE_MEMBROS.xml"/>
+      <events jsxexecute="menuClickListener(this);"/>
+    </object>
+  </object>
+</serialization>
